@@ -52,13 +52,13 @@ Uso
 Al iniciar el script, se te pedirá que ingreses los nombres de los equipos y los colores de sus camisetas (en español), así como los colores para el árbitro y el portero. También deberás seleccionar el modelo de lenguaje visual a utilizar (BLIP o PaliGemma) para la detección de dorsales y colores.
 
 2. Ejecución del Análisis
-El script main.py es el punto de entrada principal. Por defecto, procesará un video llamado "prueba.mp4" y generará un video de salida llamado "prueba.mp4".
+El script main.py es el punto de entrada principal. Por defecto, procesará un video llamado "prueba.mp4" y generará un video de salida llamado "resultado.mp4".
 
 
 3. Archivos de Salida
 Una vez que el script finaliza, se generarán los siguientes archivos:
 
-BLIP_Soccernet_SNGS-186.mp4 (o el nombre de salida que hayas configurado): El video anotado con las detecciones y la información de los jugadores.
+Resultado.mp4 (o el nombre de salida que hayas configurado): El video anotado con las detecciones y la información de los jugadores.
 
 dorsales_detectados/: Una carpeta que contendrá imágenes recortadas de los dorsales detectados para su inspección.
 
@@ -75,4 +75,4 @@ video_analysis.py: Maneja la lógica de detección de jugadores, reconocimiento 
 
 video_writer.py: Se encarga de tomar el video original y las detecciones para generar el video anotado final.
 
-players.json: (Opcional) Un archivo JSON que puede contener una base de datos de jugadores por equipo y dorsal para mostrar nombres específicos en el video anotado.
+players.json:  Un archivo JSON que contiene una base de datos de jugadores por equipo y dorsal para mostrar nombres específicos en el video anotado.
