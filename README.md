@@ -1,8 +1,12 @@
 Estudio de tecnologías de visión por computador para la localización e identificación de participantes en el conjunto de datos de SoccerNet Challenges 2025
+
+
 Descripción del Proyecto
+
 Este proyecto es una solución integral para el análisis de videos de fútbol. Utiliza modelos avanzados de visión por computadora para detectar jugadores y el balón en tiempo real, identificar los dorsales y colores de camiseta de los jugadores, y asignar la posesión del balón. El resultado es un video anotado con información clave sobre los jugadores y la dinámica del juego.
 
 Características Principales
+
 Detección de Objetos: Identifica jugadores y el balón en cada fotograma del video.
 
 Reconocimiento de Dorsales: Utiliza modelos de procesamiento de imágenes (BLIP o PaliGemma) para leer los números de los dorsales de los jugadores.
@@ -20,6 +24,7 @@ Anotación de Video: Genera un nuevo video con cuadros delimitadores, dorsales, 
 Registro Histórico: Guarda un historial detallado de las detecciones por jugador y fotograma en un archivo JSON.
 
 Modelos Utilizados
+
 El proyecto aprovecha el poder de modelos de IA de última generación:
 
 YOLOv11: Para la detección eficiente de jugadores y balones en el video.
